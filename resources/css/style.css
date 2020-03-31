@@ -16,8 +16,7 @@ h1 {
 #calculator {
   display: flex;
   flex-direction: column;
-  width: 280px;
-  height: 380px;
+  width: 16rem;
   margin:auto;
   background-color: #e0dddd;
   border: solid 5px #000;
@@ -25,7 +24,7 @@ h1 {
 
 #screen {
   background-color: #9c9897;
-  height: 50px;
+  height: 4rem;
   width: 90%;
   margin: 10px auto;
   font-size: 2rem;
@@ -37,14 +36,15 @@ h1 {
 #numbers {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*This is all the buttons.*/
 .button {
     background-color: #f0e518;
-    width: 60px;
-    height: 60px;
-    margin: 5px;
+    width: 3rem;
+    height: 3rem;
+    margin: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,18 +60,22 @@ h1 {
 
 .operator {
   background-color: #143ccc;
-  margin-bottom: 12px;
-}
+    margin-bottom: .25rem;
+    height:2rem;
+    width:3rem;
+  }
 
 #buttons {
   display: flex;
-    cursor: pointer;
+  justify-content: space-around;
+  cursor: pointer;
 }
 
 #operators {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 #clear,

@@ -98,8 +98,8 @@ $number.on('click', function() {
         });
 
         function findAnswer() {
-          num1 = parseInt(num1);
-          num2 = parseInt(num2);
+          num1 = parseFloat(num1);
+          num2 = parseFloat(num2);
             if (op == "+") {
               answer = num1 + num2;
             }
@@ -128,6 +128,10 @@ $number.on('click', function() {
                               }
                             $screen.append("=");
                              findAnswer();
+                             console.log(answer);
+                             a = answer;
+                             answer = a.toFixed(1);
+                             console.log(answer);
                              if (click > 8){
                                $screen.empty();
                                var answerLength = answer.toString();
