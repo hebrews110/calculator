@@ -1,3 +1,5 @@
+I made a few changes to the original program. The reasons are down below. I hope upstream can make use of it.
+
 General fixes: 
   1. Fixed spacing in all the files.
 
