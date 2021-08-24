@@ -1,5 +1,5 @@
 General fixes:
-  Fixed spacing in all the files
+  Fixed spacing in all the files.
 
 Feature fixes:
   Calculator stores the answer, resets, then displays the number after pushing "equals".
